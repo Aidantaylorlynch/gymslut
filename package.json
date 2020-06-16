@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/Aidantaylorlynch/gymslut/issues"
   },
-  "homepage": "https://github.com/Aidantaylorlynch/gymslut#readme"
+  "homepage": "https://github.com/Aidantaylorlynch/gymslut#readme",
+  "dependencies": {
+    "puppeteer": "^4.0.0"
+  }
 }
