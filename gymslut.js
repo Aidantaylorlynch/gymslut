@@ -11,7 +11,7 @@ const getDateString = () => {
     const password = 'Barney 123'
     const url = 'https://member.clubware.com.au/Goodlifecarnegie/TimeTable'
     const query = '?calendarDate='
-    const browser = await puppeteer.launch({headless: false})
+    const browser = await puppeteer.launch({headless: true})
     const page = await browser.newPage()
     await page.goto(url, {waitUntil: 'load', timeout: 0})
     await page.waitForSelector('#loginLink')
